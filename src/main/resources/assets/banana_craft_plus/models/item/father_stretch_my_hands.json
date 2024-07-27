@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "banana_craft_plus:item/father_stretch_my_hands"
+  }
+}
