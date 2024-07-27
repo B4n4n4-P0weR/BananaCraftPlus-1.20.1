@@ -1,6 +1,7 @@
 package net.B4n4n4_P0wer.banana_craft_plus;
 
 import com.mojang.logging.LogUtils;
+import net.B4n4n4_P0wer.banana_craft_plus.item.ModCreativeModTabs;
 import net.B4n4n4_P0wer.banana_craft_plus.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -23,6 +24,8 @@ public class BananaCraftPlus {
 
     public BananaCraftPlus() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 
